@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>BVT Class HTML Basics Practice Lesson</title>
+    <!--Add a style tag and stylize the h and p tags-->
+    
+    <style>
+        :root{
+            --changableColor:gray;
+        }
+        /*** Change the font of the h tag to "Helvetica" ***/
+        h1{
+            background-color: red;
+            font-size: 30px;
+            font-family: Helvetica;
+        }
+
+        .objectTitle{
+            background-color: blue;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        
+        /***<!--Add an id to the img and stylize it-->***/
+        #birbPic1{
+            width: 500px;
+            border-color:black;
+            border-style:solid;
+            border-width: 10px;
+        }
+
+        .objectDiv1{
+            background-color:silver;
+        }
+
+        .objectBody{
+            background-color:chocolate;
+        }
+
+        #objectBiology{
+            color:green;
+        }
+
+        #objectLike{
+            color:blue;
+        }
+
+        #oDUnique1{
+            background-color: var(--changableColor);
+            padding: 20px 20px 20px 20px;
+            
+        }
+
+        #oDUnique2{
+            background-color: var(--changableColor);
+            margin: 10px 10px 10px 10px;
+        }
+    </style>
+        
+    
+    
+</head>
+<body>
+    
+    <!--Add a unique class to the h tag and stylize the class-->
+    <h1 class="objectTitle">Birds</h1>
+    <a href="https://en.wikipedia.org/wiki/Bird">Information about Birds</a>
+    <a href="#oDUnique1">To Bottom</a>
+
+    <!--Add an external link to a wikipedia page of the object-->
+    <div><img id="birbPic1" src=https://i.kym-cdn.com/photos/images/facebook/001/385/009/5fc.jpg></div>    
+
+    <!--Add a class to the div tag and add a background color-->
+    <div class="objectDiv1">
+    
+    <!--Add each p tag to the same class and stylize class-->
+    <p class="objectBody">Birds have:
+        <!--Add an id to the ul and ol tags and stylize the ids-->
+        <!--Check how conflicting styles between classes and ids work and how code prioritizes them-->
+        <ul id="objectBiology">
+            <li>Pair of wings</li>
+            <li>Two feet</li>
+            <li>Beak</li>
+        </ul>
+    </p>
+
+    <p class="objectBody">
+        I like birds because:
+        <ol id="objectLike">
+            <li>they make good memes</li>
+            <li>parrots</li>
+            <li>Them was some birds</li>
+        </ol>
+    </p>
+    </div>
+
+    <!--Add two paragraphs. (use >Lorem### to automatically create text)-->
+    <!--Nest the two paragraphs in different div tags-->
+
+    <div class="objectDiv1" id="oDUnique1"><p>>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequatur quas nam cumque nesciunt architecto praesentium, animi reiciendis? Tenetur dolore neque illum molestiae necessitatibus vel quis facere quam illo molestias odio, maxime atque aperiam tempora ut itaque reiciendis animi temporibus. Obcaecati possimus fugiat dignissimos nisi rem repellat. Repellat repudiandae ullam voluptate deserunt fugiat alias in error nostrum consequuntur similique eos fugit doloremque, possimus voluptatum, provident quaerat sapiente officia tempora beatae velit tenetur, iste ad? Dolorum necessitatibus voluptas rem est modi neque fugit enim nam nihil velit magni facere eligendi, odit suscipit dignissimos repellat atque? Illo voluptatum dignissimos culpa amet eos similique natus. Delectus facilis mollitia nisi dolores molestiae explicabo ullam maxime, eveniet perspiciatis architecto nobis inventore numquam esse veritatis eaque vitae excepturi dolore? Dolore, commodi!</p></div>
+    
+    <div class="objectDiv1" id="oDUnique2"><p>>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt error, animi tenetur quae voluptas consectetur eos a debitis, quis consequuntur ipsum. Earum, sequi delectus assumenda tempore aut aliquam voluptatibus molestias modi nulla doloremque adipisci, voluptate animi quisquam provident eveniet expedita cupiditate consequatur nesciunt magnam minus repellat facere? Deserunt assumenda architecto perspiciatis, adipisci laudantium eveniet quia. Nisi fuga perferendis voluptates inventore natus. Qui error alias perferendis temporibus architecto natus mollitia incidunt eius. Modi exercitationem eveniet provident quidem excepturi necessitatibus voluptate eligendi, nulla voluptatum magni nemo cumque, aperiam veritatis iusto sunt itaque molestias? Obcaecati hic veritatis soluta! Consequuntur itaque veritatis, corporis odit molestias omnis, inventore pariatur, consequatur eaque rem est unde non harum nemo aspernatur natus possimus eligendi cumque maiores voluptas. Neque velit deserunt nam eaque commodi?</p></div>
+    <!--Give the div tags different styles-->
+    <!--Give the first paragraph padding-->
+    <!--Give different padding values to the top, right, bottom, and left properties-->
+    <!--Give the second paragraph margins-->
+    <!--Give different margin values to the top, right, bottom, and left properties-->
+    <!--Use at least 1 custom variable under a root selector-->
+    <!--Add an internal link that skips to the last two paragraphs near the h tag-->
+
+    <input type="text" placeholder="Find more">
+    <button type="submit">Search</button>
+    
+</body>
+</html>
